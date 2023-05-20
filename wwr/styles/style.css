@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@500&display=swap');
+
+.home-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 2em;
+    margin-top: 10px;
+}
+    
+.msg {
+    background-color: darkslategray;
+    line-height: 1.5em;
+    padding: 35px;
+} 
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+body {
+    background-color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+
 body { 
     max-width: 1600px;
 }
+
+
 div {
          margin: 0 auto;
 }    
@@ -19,6 +51,8 @@ div {
  nav a:hover {
     background-color: azure;
  }
+
+
  nav a:hover {
     background-color: black;
     color:#396E94 ;
@@ -31,6 +65,21 @@ h4{
 }
 .book, .join{
   color: #213a51;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #fcb23f
+}
+
+.main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0 ;
 }
 .book:hover .join:hover{
   color: #c9c9c9;
@@ -40,25 +89,39 @@ h4{
 }
 .msg p{
     color: honeydew
+ 
 }
 footer {
   color: darkolivegreen;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
-footer a{
+
+footer.social img{
+    padding-top: 15px;
+}
+footer p{
     color: indianred;
 }
 footer a {
     color: lightgrey;
 }
 .icon{
-   width: 100px;;
+   width: 100px;
+   padding: top 10px;;
 }
+
+#logo_link { 
+    padding-top: 5px;
+}
+
 nav a{
     text-align: center;
     color: khaki;
     text-decoration:none ;
+    padding: 35px;
 }
-footer p{
+footer a{
     font-size: 1,2em;
 }
 footer p a:hover {
