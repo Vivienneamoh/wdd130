@@ -17,23 +17,24 @@ nav a{
 h1{
     color: steelblue;
 }
-
+main img{
+    float: right;
+ }
 main img{
     width:150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow:0 0 30px gray;
-
 }
- main img{
-    float: right;
- }
 
 p{
     padding: 0;
 }
-
+aside{
+    width: 20em;
+    text-align: center;
+}
 aside{
     width: 20rem
     margin 1rem;
@@ -43,7 +44,6 @@ aside{
     color: #333;
     text-align: center;
 }
-
 aside img{
     width: 200px;
     height: auto
@@ -79,7 +79,4 @@ footer{
     background-color: #ddd;
     color: #000;
 }
-aside{
-    width: 20em;
-    text-align: center;
-}
+
