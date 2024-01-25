@@ -17,9 +17,7 @@ nav a{
 h1{
     color: steelblue;
 }
-main img{
-    float: right;
- }
+
 main img{
     width:150px;
     height: auto;
@@ -27,7 +25,9 @@ main img{
     padding: 2px;
     box-shadow:0 0 30px gray;
 }
-
+main img{
+    float: right;
+ }
 p{
     padding: 0;
 }
