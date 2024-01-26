@@ -15,6 +15,45 @@
     --nav-hover-link-color: #
     --nav-hover-background-color: #
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960 pixels;
+    padding: 20 pixels;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    padding: 20px;
+    background-color: skyblue;
+}
+
+p{
+  padding: 25px  
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+nav a{
+    display: block;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a :link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
 .hero img{
     display:block ;
     width:100% ;
