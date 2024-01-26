@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Roboto:wght@100&display=swap');
+
+
+:root {
+    --primary-color:rgb(0, 106, 255);
+    --secondary-color:white;
+    --accent1-color:black;
+    --accent2-color: rgb(255, 255, 255) ;
+
+    --heading-font: 'Roboto',serif;
+    --pargraph-font:'Faustina',serif;
+
+    --nav-background-color:
+    --nav-link-color: #
+    --nav-hover-link-color: #
+    --nav-hover-background-color: #
+}
+.hero img{
+    display:block ;
+    width:100% ;
+    height:auto ;
+}
