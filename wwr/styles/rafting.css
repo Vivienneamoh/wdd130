@@ -9,10 +9,10 @@
     --heading-font: 'Roboto', serif;
     --pargraph-font: 'Faustina', serif;
 
-    --nav-background-color: /* Add your color value */;
-    --nav-link-color: /* Add your color value */;
-    --nav-hover-link-color: /* Add your color value */;
-    --nav-hover-background-color: /* Add your color value */;
+    --nav-background-color: white
+    --nav-link-color: cream
+    --nav-hover-link-color: 
+    --nav-hover-background-color: 
 }
 
 body {
@@ -51,24 +51,103 @@ footer {
 
 .hero {
     position: relative;
-    overflow: hidden; /* Ensure the hero image doesn't overflow */
+    overflow: hidden; 
 }
 
 .hero img {
-    width: 100%; /* Make the hero image fill the entire container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the h1 */
-    color: #fff; /* Text color on top of the hero image */
+    transform: translate(-50%, -50%); 
+    color: #fff; 
 }
 
 article {
     position: absolute;
     bottom: 20px;
     left: 20px;
+}
+header {
+    background-color: #2a5088;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 100%; 
+    max-width: 200px; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a5088;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #73a580;
+}
+
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #2a5088;
+}
+
+section p {
+    line-height: 1.5;
+    color: #333;
+}
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.adventures figure {
+    flex: 1;
+    text-align: center;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; 
+}
+
+.adventures figcaption {
+    margin-top: 10px;
+    color: #2a5088;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5; /
+}
+
+.sociallinks a {
+    margin-left: 10px;
+}
+
+.sociallinks img {
+    width: 30px; /
+    height: auto;
 }
