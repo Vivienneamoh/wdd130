@@ -1,52 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Roboto:wght@100&display=swap');
 
 :root {
-    --primary-color:#XXXXXX;
-    --secondary-color:#XXXXXX;
-    --accent1-color:XXXXXX;
-    --accent2-color:XXXXXX ;
-
-    --heading-font: 'Roboto',serif;
-    --pargraph-font:'Faustina',serif;
-
-    --nav-background-color:
-    --nav-link-color: #
-    --nav-hover-link-color: #
-    --nav-hover-background-color: #
+    --primary-color: #2a5088;
+    --secondary-color: #d7b98e;
+    --accent1-color: #73a580;
+    --accent2-color: #e84a5f;
+    
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Faustina', serif;
+    
+    --nav-background-color: white;
+    --nav-link-color: ;
+    --nav-hover-link-color: ;
+    --nav-hover-background-color: ;
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 960 pixels;
-    padding: 20 pixels;
+/* Body */
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--heading-font);
     color: black;
 }
 
+/* Header */
 header {
     padding: 20px;
     background-color: aquamarine;
 }
 
-p{
-  padding: 25px  
+/* Paragraph */
+p {
+    padding: 25px;
 }
 
+/* Navigation */
 nav {
     background-color: antiquewhite;
 }
 
-nav a{
+nav a {
     display: block;
     color: blanchedalmond;
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a :link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
