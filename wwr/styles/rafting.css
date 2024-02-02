@@ -1,51 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Roboto:wght@100&display=swap');
+
 :root {
-    --primary-color:rgb(0, 106, 255);
-    --secondary-color:white;
-    --accent1-color:black;
-    --accent2-color: rgb(255, 255, 255) ;
+    --primary-color: rgb(0, 106, 255);
+    --secondary-color: white;
+    --accent1-color: black;
+    --accent2-color: rgb(255, 255, 255);
 
-    --heading-font: 'Roboto',serif;
-    --pargraph-font:'Faustina',serif;
+    --heading-font: 'Roboto', serif;
+    --pargraph-font: 'Faustina', serif;
 
-    --nav-background-color:
-    --nav-link-color: #
-    --nav-hover-link-color: #
-    --nav-hover-background-color: #
+    --nav-background-color: /* Add your color value */;
+    --nav-link-color: /* Add your color value */;
+    --nav-hover-link-color: /* Add your color value */;
+    --nav-hover-background-color: /* Add your color value */;
 }
+
 body {
     font-family: 'Times New Roman', Times, serif;
     max-width: 960px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2a5088; 
+    color: #2a5088;
 }
 
 p {
-    color: #333; 
+    color: #333;
 }
 
 nav a {
     text-decoration: none;
-    color: #333; 
-}  
+    color: #333;
+}
 
 nav a:hover {
-    color: #73a580; 
+    color: #73a580;
 }
 
 footer {
-    color: #999; 
+    color: #999;
 }
 
-.hero img{
-    display:block ;
-    width:100% ;
-    height:auto ;
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
 .hero {
     position: relative;
     overflow: hidden; /* Ensure the hero image doesn't overflow */
