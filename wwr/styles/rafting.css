@@ -53,8 +53,8 @@ body {
 }
 
 .navigation a:hover {
-  color: var(--nav-hover-link-color)aquamarine; /* Change link color on hover */
-  background-color: var(--nav-hover-background-color) antiquewhite; /* Change background color on hover */
+  color: var(--nav-hover-link-color); 
+  background-color: var(--nav-hover-background-color); 
 }
 
 /* History section styles */
@@ -78,14 +78,14 @@ body {
 
 /* Heading and paragraph styles */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--heading-color);
-  font-family: var(--heading-font);
+    font-family: 'Roboto', sans-serif; 
+    color: var(--heading-color);
 }
 
 p {
-  color: var(--paragraph-color);
-  font-family: var(--paragraph-font);
-}
+    font-family: 'Faustina', serif; 
+    color: var(--paragraph-color);
+} 
 
 .hero img {
   display: block;
