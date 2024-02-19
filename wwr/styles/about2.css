@@ -6,7 +6,7 @@
   --primary-color: rgb(0, 106, 255);
   --secondary-color: brown;
   --accent1-color: black;
-  --accent2-color: rgb(255, 255, 255);
+  --accent2-color: rgb(57, 59, 165);
   
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Faustina', serif;
@@ -22,7 +22,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 /* Container Styles */
