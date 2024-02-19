@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connected though a screen away</title>
-    <link rel="stylesheet" href="rafting.css">
+    <title>Need to get into contact with us? Either fill out the form to get into touch with us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <img src="images/raftingcompas.jpg" alt="Rafting Logo">
+        <div class="employee-profile">
+            <div class="employee">
+                <img src="employee1.jpg" alt="Employee 1">
+                <div class="caption">John Doe - Manager</div>
+            </div>
+            <div class="employee">
+                <img src="employee2.jpg" alt="Employee 2">
+                <div class="caption">Jane Smith - Sales Associate</div>
+            </div>
+            <div class="employee">
+                <img src="employee3.jpg" alt="Employee 3">
+                <div class="caption">Michael Johnson - Customer Support</div>
+            </div>
+        </div>
         <nav>
             <a href="./">Home</a>
             <a href="about.html">About us</a>
@@ -18,21 +32,44 @@
     </header>
     <main>
         <h1>Contact Us</h1>
-
+        <form action="submit.php" method="POST"> 
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="purpose">Purpose:</label><br>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
         <h2>Send us a message</h2>
-
         <p>Oar River Rafting</p>
         <p>Phone:074 982 6873</p>
-        <p>Email: <a href="mailto:"></a></p>
+        <p>Email: <a href="mailto:info@oarriverrafting.com">info@oarriverrafting.com</a></p>
         <div class='map'>
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114694.86051662175!2d27.975236056565663!3d-26.05924894712249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957398cbf40517%3A0xdf8bd21bf1eb74c!2sSandton!5e0!3m2!1sen!2sza!4v1707482794049!5m2!1sen!2sza" 
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114694.86051662175!2d27.975236056565663!3d-26.05924894712249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957398cbf40517%3A0xdf8bd21bf1eb74c!2sSandton!5e0!3m2!1sen!2sza!4v1707482794049!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-
     </main>
-    <footer><a href="path/to/contact_wireframe_image.jpg" target="_blank">Contact Us Wireframe</a>
+    <footer>
+        <a href="path/to/contact_wireframe_image.jpg" target="_blank">Contact Us Wireframe</a>
         <p>&copy;2024 | Oar River Rafting | Vivienne Amoh</p>
     </footer>
 </body>
