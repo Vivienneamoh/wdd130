@@ -19,7 +19,7 @@
 
 /* Body Styles */
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: var(--paragraph-font); /* Use imported font */
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -33,13 +33,12 @@ body {
 }
 
 /* Header Styles */
-.header {
+header {
+  background-color: steelblue;
+  padding: 1rem;
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 10px;
+  grid-template-columns: auto 1fr; /* Logo takes auto width, Navigation takes remaining space */
+  align-items: center; /* Center items vertically */
 }
 
 .logo img {
@@ -48,9 +47,9 @@ body {
 }
 
 .navigation ul {
-  display: flex;
   list-style-type: none;
   padding: 0;
+  display: flex;
 }
 
 .navigation li {
@@ -65,12 +64,6 @@ body {
 .navigation a:hover {
   color: var(--nav-hover-link-color); 
   background-color: var(--nav-hover-background-color); 
-}
-
-/* History Section Styles */
-.history {
-  padding: 20px;
-  background-color: var(--secondary-color);
 }
 
 /* Footer Styles */
@@ -113,10 +106,9 @@ p {
   right: 0;
   text-align: center;
   color: #fff;
-  background-color: var(--accent1-color); /* Fixed typo here */
+  background-color: var(--accent1-color);
   padding: 1rem;
 }
-
 .hero article {
   position: absolute;
   top: 5rem;
