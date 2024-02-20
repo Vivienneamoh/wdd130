@@ -95,133 +95,142 @@ p {
   position: relative;
 }
 
-.hero-home {
-  width: 100%;
-}
-
-.hero h1 {
-  position: absolute;
-  top: 1rem;
-  left: 0;
-  right: 0;
-  text-align: center;
-  color: #fff;
-  background-color: var(--accent1-color);
-  padding: 1rem;
-}
-.hero article {
-  position: absolute;
-  top: 5rem;
-  background-color: var(--accent2-color);
-  color: black;
-  padding: 1rem;
-  max-width: 85%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 .hero img {
-  display: block;
   width: 100%;
   height: auto;
 }
 
-/* Additional Styles */
-h1 {
+.hero-content {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
 
-article {
-  position: absolute;
-  top: 100px;
-  left: 20px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-}
-
-article img {
-  float: right;
-  margin-left: 20px;
-}
-
-article p {
+.hero-content h1 {
+  font-size: 3em;
   margin-bottom: 20px;
 }
-* Styles for Call to Action section */
-.call-to-action {
-    text-align: center;
-    margin-bottom: 50px;
+
+.hero-content p {
+  font-size: 1.5em;
 }
 
-.call-to-action h2 {
-    color: #333;
+/* Newsletter Section Styles */
+.newsletter {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.call-to-action p {
-    color: #666;
-    margin-bottom: 20px;
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Call to Action Section Styles */
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-/* Styles for Trip Descriptions section */
-.trip-descriptions {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+/* Grid Layout Section Styles */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
 }
 
-.trip-descriptions article {
-    border: 1px solid #ccc;
-    padding: 20px;
+.grid-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-.trip-descriptions h3 {
-    color: #333;
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.trip-descriptions img {
-    width: 100%;
-    height: auto;
+.content {
+  padding: 20px;
+  flex: 1;
 }
 
-.trip-descriptions p {
-    color: #666;
+.content h3 {
+  margin-top: 0;
 }
 
-/* Styles for Available Trips section */
-.available-trips table {
-    width: 100%;
-    border-collapse: collapse;
+.content p {
+  margin-bottom: 0;
 }
 
-.available-trips th, .available-trips td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-.available-trips th {
-    background-color: #f7f7f7;
-    font-weight: bold;
-    color: #333;
-}
-
-.available-trips td {
-    color: #666;
+@media (min-width: 768px) {
+  .grid-item {
+      flex-direction: row;
+  }
+  
+  .grid-item img {
+      flex: 1;
+      max-width: 50%;
+  }
+  
+  .content {
+      flex: 1;
+      padding: 20px 20px 20px 0;
+  }
 }
