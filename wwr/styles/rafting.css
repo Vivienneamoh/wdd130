@@ -151,3 +151,68 @@ article img {
 article p {
   margin-bottom: 20px;
 }
+/* Additional Styles for Trips Page */
+
+.call-to-action {
+  text-align: center;
+  padding: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.trip-descriptions {
+  margin-top: 40px;
+}
+
+.trip-descriptions article {
+  margin-bottom: 20px;
+}
+
+.trip-descriptions img {
+  width: 100%;
+  height: auto;
+}
+
+.available-trips {
+  margin-top: 40px;
+}
+
+.available-trips table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.available-trips th, .available-trips td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.available-trips th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.wireframe-link {
+  color: var(--accent1-color);
+  text-decoration: none;
+}
+
+.wireframe-link:hover {
+  text-decoration: underline;
+}
