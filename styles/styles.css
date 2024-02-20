@@ -35,7 +35,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    border-bottom: 1px solid black; /* Adjusted border size */
+    border-bottom: 1px solid black; 
 }
 
 img {
@@ -74,7 +74,7 @@ aside h2 {
 }
 
 .grid {
-    max-width: 1200px; /* Adjusted max-width */
+    max-width: 1200px; 
     margin: 0 auto;
     display: grid;
     align-items: center;
@@ -95,7 +95,7 @@ aside img {
 }
 
 aside {
-    width: 20rem; /* Removed extra space */
+    width: 20rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
