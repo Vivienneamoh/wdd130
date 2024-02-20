@@ -151,68 +151,77 @@ article img {
 article p {
   margin-bottom: 20px;
 }
-/* Additional Styles for Trips Page */
-
+* Styles for Call to Action section */
 .call-to-action {
-  text-align: center;
-  padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.call-to-action h2 {
+    color: #333;
+}
+
+.call-to-action p {
+    color: #666;
+    margin-bottom: 20px;
 }
 
 .cta-button {
-  display: inline-block;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .cta-button:hover {
-  background-color: var(--secondary-color);
+    background-color: #0056b3;
 }
 
+/* Styles for Trip Descriptions section */
 .trip-descriptions {
-  margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
 }
 
 .trip-descriptions article {
-  margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.trip-descriptions h3 {
+    color: #333;
 }
 
 .trip-descriptions img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
-.available-trips {
-  margin-top: 40px;
+.trip-descriptions p {
+    color: #666;
 }
 
+/* Styles for Available Trips section */
 .available-trips table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .available-trips th, .available-trips td {
-  border: 1px solid #ddd;
-  padding: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
 }
 
 .available-trips th {
-  background-color: var(--primary-color);
-  color: white;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    color: #333;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-}
-
-.wireframe-link {
-  color: var(--accent1-color);
-  text-decoration: none;
-}
-
-.wireframe-link:hover {
-  text-decoration: underline;
+.available-trips td {
+    color: #666;
 }
